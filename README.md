@@ -1,2 +1,2 @@
 # vue-data-sheet
-excel like data grid using vue.js
+Excel like data grid using vue.js
