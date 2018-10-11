@@ -1,0 +1,144 @@
+.u-center-text { text-align: center !important; }
+
+.u-margin-bottom-big { margin-bottom: 8rem !important; }
+.u-margin-bottom-medium { margin-bottom: 4rem !important; }
+.u-margin-bottom-small { margin-bottom: 1.5rem !important; }
+
+.u-margin-top-huge { margin-top: 10rem !important; }
+.u-margin-top-big { margin-top: 8rem !important; }
+
+.clicked {
+    border: 2px solid $border-color !important;
+} 
+
+//range_lt left top
+.range_lt {
+    //border: 2px solid $border-color !important;
+    border-top: 2px !important;
+    border-top-style: solid !important;
+    border-top-color: $border-color !important;
+    border-left: 2px !important;
+    border-left-style: solid !important;
+    border-left-color: $border-color !important;
+}
+//range_lm left middle
+.range_lm {
+    border-left: 2px !important;
+    border-left-style: solid !important;
+    border-left-color: $border-color !important;
+}
+//range_lb left bottom
+.range_lb {
+    border-bottom: 2px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: $border-color !important;
+    border-left: 2px !important;
+    border-left-style: solid !important;
+    border-left-color: $border-color !important;
+}
+//range_mt middle top
+.range_ct {
+    border-top: 2px !important;
+    border-top-style: solid !important;
+    border-top-color: $border-color !important;
+}
+//range_mm middle middle
+.range_cm {
+
+}
+//range_mb middle bottom
+.range_cb {
+    border-bottom: 2px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: $border-color !important;
+}
+//range_rt right top
+.range_rt {
+    border-top: 2px !important;
+    border-top-style: solid !important;
+    border-top-color: $border-color !important;
+    border-right: 2px !important;
+    border-right-style: solid !important;
+    border-right-color: $border-color !important;
+}
+//range_rm right middle
+.range_rm {
+    border-right: 2px !important;
+    border-right-style: solid !important;
+    border-right-color: $border-color !important;
+}
+//range_rb right bottom
+.range_rb {
+    border-bottom: 2px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: $border-color !important;
+    border-right: 2px !important;
+    border-right-style: solid !important;
+    border-right-color: $border-color !important;
+}
+
+.range_l {
+    border-left: 2px !important;
+    border-left-style: solid !important;
+    border-left-color: $border-color !important;
+    border-bottom: 2px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: $border-color !important;
+    border-top: 2px !important;
+    border-top-style: solid !important;
+    border-top-color: $border-color !important;
+}
+
+.range_c {
+    border-bottom: 2px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: $border-color !important;
+    border-top: 2px !important;
+    border-top-style: solid !important;
+    border-top-color: $border-color !important;
+}
+
+.range_r {
+    border-right: 2px !important;
+    border-right-style: solid !important;
+    border-right-color: $border-color !important;
+    border-bottom: 2px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: $border-color !important;
+    border-top: 2px !important;
+    border-top-style: solid !important;
+    border-top-color: $border-color !important;
+}
+
+.range_t {
+    border-right: 2px !important;
+    border-right-style: solid !important;
+    border-right-color: $border-color !important;
+    border-left: 2px !important;
+    border-left-style: solid !important;
+    border-left-color: $border-color !important;
+    border-top: 2px !important;
+    border-top-style: solid !important;
+    border-top-color: $border-color !important;
+}
+
+.range_m {
+    border-right: 2px !important;
+    border-right-style: solid !important;
+    border-right-color: $border-color !important;
+    border-left: 2px !important;
+    border-left-style: solid !important;
+    border-left-color: $border-color !important;
+}
+
+.range_b {
+    border-right: 2px !important;
+    border-right-style: solid !important;
+    border-right-color: $border-color !important;
+    border-left: 2px !important;
+    border-left-style: solid !important;
+    border-left-color: $border-color !important;
+    border-bottom: 2px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: $border-color !important;
+}

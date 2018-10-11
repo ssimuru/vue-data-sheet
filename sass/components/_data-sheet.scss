@@ -1,0 +1,63 @@
+.vds {
+
+    &__table {
+        border-collapse: collapse;
+        font-size: 0.8rem;
+
+        &--header {
+            color: $color-grey-light-2;
+            background-color: $color-grey-dark-4;
+            cursor: pointer;
+            &-row {
+                height: 2.5rem;
+            }
+            &-col {
+                @include table-border;
+            }
+        }
+
+        &--body {
+            &-row {
+                height: 2.5rem;
+
+                &:nth-child(even) input {
+                    background-color: $color-gray-light-3;
+                }
+
+                &:nth-child(even) label {
+                    border: 2px solid $color-gray-light-3;
+                }
+
+                // &:nth-child(odd) {
+                //     border: 2px solid $color-white;
+                // }
+            }
+
+            
+
+            &-col {
+                @include table-border;
+                
+
+                &-input {
+                    text-align: center;
+                    border-style: none;
+                    cursor: pointer;
+                    height: 2.4rem;
+                    &::selection {
+                        background-color: $color-white;
+                    } 
+                }
+                //label의 width를 조정하면 width가 변경됨
+                &-label {
+                    display: inline-block;
+                    //border: 2px solid rgba(gray, .2);
+                    border: 2px solid $color-white;
+                    height: 2.5rem;
+                }
+
+            }
+        }
+    }
+}
+

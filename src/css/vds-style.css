@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/*
+
+0 - 600px: Phone
+600 - 900px: Tablet portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800px]: Normal style
+1800px +: Big desktop
+
+media query 적용 순서
+Base + typography > general layout + grid > page layout > components
+
+$breakpoint 
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+1em = 16px
+*/
+/*화면에서 공통으로 사용할 요소들은 body 엘리먼트에 정의한다. 
+  css 상속을 통해서 body 엘리먼트의 요소들을 공통으로 사용할 수 있다.
+  기본 사용 요소
+  - 폰트, 폰트 사이즈, 폰트 색깔 등
+*/
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.clicked {
+  border: 2px solid #1f57a0 !important; }
+
+.range_lt {
+  border-top: 2px !important;
+  border-top-style: solid !important;
+  border-top-color: #1f57a0 !important;
+  border-left: 2px !important;
+  border-left-style: solid !important;
+  border-left-color: #1f57a0 !important; }
+
+.range_lm {
+  border-left: 2px !important;
+  border-left-style: solid !important;
+  border-left-color: #1f57a0 !important; }
+
+.range_lb {
+  border-bottom: 2px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: #1f57a0 !important;
+  border-left: 2px !important;
+  border-left-style: solid !important;
+  border-left-color: #1f57a0 !important; }
+
+.range_ct {
+  border-top: 2px !important;
+  border-top-style: solid !important;
+  border-top-color: #1f57a0 !important; }
+
+.range_cb {
+  border-bottom: 2px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: #1f57a0 !important; }
+
+.range_rt {
+  border-top: 2px !important;
+  border-top-style: solid !important;
+  border-top-color: #1f57a0 !important;
+  border-right: 2px !important;
+  border-right-style: solid !important;
+  border-right-color: #1f57a0 !important; }
+
+.range_rm {
+  border-right: 2px !important;
+  border-right-style: solid !important;
+  border-right-color: #1f57a0 !important; }
+
+.range_rb {
+  border-bottom: 2px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: #1f57a0 !important;
+  border-right: 2px !important;
+  border-right-style: solid !important;
+  border-right-color: #1f57a0 !important; }
+
+.range_l {
+  border-left: 2px !important;
+  border-left-style: solid !important;
+  border-left-color: #1f57a0 !important;
+  border-bottom: 2px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: #1f57a0 !important;
+  border-top: 2px !important;
+  border-top-style: solid !important;
+  border-top-color: #1f57a0 !important; }
+
+.range_c {
+  border-bottom: 2px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: #1f57a0 !important;
+  border-top: 2px !important;
+  border-top-style: solid !important;
+  border-top-color: #1f57a0 !important; }
+
+.range_r {
+  border-right: 2px !important;
+  border-right-style: solid !important;
+  border-right-color: #1f57a0 !important;
+  border-bottom: 2px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: #1f57a0 !important;
+  border-top: 2px !important;
+  border-top-style: solid !important;
+  border-top-color: #1f57a0 !important; }
+
+.range_t {
+  border-right: 2px !important;
+  border-right-style: solid !important;
+  border-right-color: #1f57a0 !important;
+  border-left: 2px !important;
+  border-left-style: solid !important;
+  border-left-color: #1f57a0 !important;
+  border-top: 2px !important;
+  border-top-style: solid !important;
+  border-top-color: #1f57a0 !important; }
+
+.range_m {
+  border-right: 2px !important;
+  border-right-style: solid !important;
+  border-right-color: #1f57a0 !important;
+  border-left: 2px !important;
+  border-left-style: solid !important;
+  border-left-color: #1f57a0 !important; }
+
+.range_b {
+  border-right: 2px !important;
+  border-right-style: solid !important;
+  border-right-color: #1f57a0 !important;
+  border-left: 2px !important;
+  border-left-style: solid !important;
+  border-left-color: #1f57a0 !important;
+  border-bottom: 2px !important;
+  border-bottom-style: solid !important;
+  border-bottom-color: #1f57a0 !important; }
+
+.vds__table {
+  border-collapse: collapse;
+  font-size: 0.8rem; }
+  .vds__table--header {
+    color: #eee;
+    background-color: rgba(51, 51, 51, 0.9);
+    cursor: pointer; }
+    .vds__table--header-row {
+      height: 2.5rem; }
+    .vds__table--header-col {
+      border: 0.12rem solid rgba(0, 0, 0, 0.3);
+      padding: 0; }
+  .vds__table--body-row {
+    height: 2.5rem; }
+    .vds__table--body-row:nth-child(even) input {
+      background-color: rgba(128, 128, 128, 0.1); }
+    .vds__table--body-row:nth-child(even) label {
+      border: 2px solid rgba(128, 128, 128, 0.1); }
+  .vds__table--body-col {
+    border: 0.12rem solid rgba(0, 0, 0, 0.3);
+    padding: 0; }
+    .vds__table--body-col-input {
+      text-align: center;
+      border-style: none;
+      cursor: pointer;
+      height: 2.4rem; }
+      .vds__table--body-col-input::selection {
+        background-color: #fff; }
+    .vds__table--body-col-label {
+      display: inline-block;
+      border: 2px solid #fff;
+      height: 2.5rem; }
